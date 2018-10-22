@@ -1,16 +1,140 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1348.17">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-  </style>
+<!DOCTYPE html>
+<html lang = “en-US”>
+<head class="head">
+	<title>serialkillersforyou</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="notstyle.css">
+	<script type="text/javascript" src="notscript.js"></script>
 </head>
 <body>
-<p class="p1">hey mom whats up</p>
+	<div class="herc">
+		<h1 align="rigth"><u>Serial Killers Explorer</u></h1>
+		<img class="center" src="https://www.mapsofworld.com/maps/world-map-with-continents.jpg"
+		 alt="interaction" 
+		 width="900" 
+		 height="500" 
+		 usemap="#map"/>
+		<map id="map" name="map">
+			<area shape="rect"
+				alt="North America"
+				coords="10,10,390,260" 
+				href= "NorthAmerica.html"/>
+			<area shape="rect"
+				alt="South America"
+				coords="200,240,350,450" 
+				href="SouthAmerica.html" />
+			<area shape="circle"
+				alt="Europe"
+				coords="480,130,80" 
+				href="Europe.html" />
+			<area shape="rect"
+				alt="Asia"
+				coords="550,60,800,250" 
+				href="Asia.html" />
+			<area shape="rect"
+				alt="Africa"
+				coords="390,200,550,350" 
+				href="Africa.html" />
+		</map>
+	</div>
+	<div class="herc1">
+		<h1 align="rigth"><u>Serial Killers Explorer</u></h1>
+		<img class="center1" src="https://www.mapsofworld.com/maps/world-map-with-continents.jpg"
+		 alt="interaction" 
+		 width="650" 
+		 height="500" 
+		 usemap="#map1"/>
+		<map id="map1" name="map1">
+			<area shape="rect"
+				alt="North America"
+				coords="80,100,200,250"
+				href= "NorthAmerica.html"/>
+			<area shape="rect"
+				alt="South America"
+				coords="130,240,250,450" 
+				href="SouthAmerica.html" />
+			<area shape="circle"
+				alt="Europe"
+				coords="350,130,80" 
+				href="Europe.html" />
+			<area shape="rect"
+				alt="Asia"
+				coords="400,60,550,250" 
+				href="Asia.html" />
+			<area shape="rect"
+				alt="Africa"
+				coords="250,200,430,350" 
+				href="Africa.html" />
+		</map>
+	</div>
+	<div class="herc2">
+		<h1 align="rigth"><u>Serial Killers Explorer</u></h1>
+		<img class="center2" src="https://www.mapsofworld.com/maps/world-map-with-continents.jpg"
+		 alt="interaction" 
+		 width="650" 
+		 height="500" 
+		 usemap="#map2"/>
+		<map id="map2" name="map2">
+			<area shape="rect"
+				alt="North America"
+				coords="40,70,140,140"
+				href= "NorthAmerica.html"/>
+			<area shape="rect"
+				alt="South America"
+				coords="80,140,150,240" 
+				href="SouthAmerica.html" />
+			<area shape="circle"
+				alt="Europe"
+				coords="190,80,40" 
+				href="Europe.html" />
+			<area shape="rect"
+				alt="Asia"
+				coords="210,40,300,130" 
+				href="Asia.html" />
+			<area shape="rect"
+				alt="Africa"
+				coords="150,120,210,200"
+				href="Africa.html" />
+		</map>
+	</div>
+	<div class="hercdaddy">
+		<ul class="about">
+			<li><a href="https://www.google.com">Log In</a></li>
+			<li><a href="https://www.google.com">Contact Us</a></li>
+			<li><a href="https://www.google.com">About Us</a></li>
+		</ul>
+	</div>
+	<p><strong>*WE ARE NOT IMPLYING HERCULES IS A SERIAL KILLER*</strong></p>
+	<form name="form1" id="form1" autocomplete="off" method="get" onsubmit="summarize(); return false;">
+		<fieldset>
+	        <legend>Contact Us!</legend>
+	        <label for="firstname" class="labelitem">First name:</label>
+	        <input type="text" name="firstname" id="firstname" size="24" maxlength="32"
+	               placeholder="Enter first name." required pattern="[a-zA-Z][a-zA-Z'\- ]*"
+	               title="First name cannot be blank." /><br />
+	        <label for="lastname" class="labelitem">Last name:</label>
+	        <input type="text" name="lastname" id="lastname" size="24" maxlength="32"
+	               placeholder="Enter last name." required pattern="[a-zA-Z][a-zA-Z'\- ]*"
+	               title="Last name cannot be blank." /><br />
+	        <label for="email" class="labelitem">Email:</label>
+	        <input type="text" name="email" id="email" size="24" maxlength="32"
+	               placeholder="Enter email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+	               title="Email cannot be blank." /><br />
+      	</fieldset>
+      	<fieldset>
+      		<label for="Input" class="labelitem1">Comments</label>
+        	<textarea name="Comments_Questions_Concerns" id="Comments" rows="10" cols="20" placeholder="Comments/Questions/Concerns"></textarea><br />
+      	</fieldset>
+      	<section id="reset_submit">
+        	<input type="reset" value="Reset" onclick="reset_form()" />
+        	<input type="submit" value="Submit"/>
+      	</section><br />
+      	<div id="summary_wrapper">
+        	<fieldset>
+         		<legend>Comment</legend>
+          		<section id="summary"></section>
+        	</fieldset>
+      	</div>
+    </form>
 </body>
 </html>
